@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    place-content: center;
+    background-color: #EBECF0;
+}
+.select-map-tile > img {
+    height:64px;
+    width:64px;
+    border: 1px dashed grey;
+    margin: 13px;
+    cursor: pointer;
+}
+img.selected {
+    border: 3px solid magenta;
+} 
+.row {
+    display: grid;
+    grid-template-columns: repeat(5,64px);
+}
+.tile {
+    height:64px;
+    width:64px;
+    border:1px dashed grey;
+    background-color:#92d474;
+    cursor: pointer;
+}
+/* .occupied {
+    border:1px dashed grey;
+} */
+header > button {
+    color: rgb(10, 204, 10);
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid rgb(10, 204, 10);
+}
+header > h1 {
+    font-weight: bold;
+}
+section > h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
